@@ -1,0 +1,139 @@
+.login-insta {
+  box-sizing: border-box;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.img-phone {
+  display: none;
+  background-image: url(../../img/mockup-mobile.png);
+  background-repeat: no-repeat;
+}
+
+.screen-app {
+  display: none;
+  max-width: 240px;
+  position: relative;
+  top: 100px;
+  left: 151px;
+}
+
+.group-login {
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.group-login a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.box-login h1 {
+  height: 58px;
+  background-image: url(../../img/instagram-logo.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-indent: -9999px;
+  margin-bottom: 1.5rem;
+}
+
+.box-login input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  margin: 5px 0;
+  border: 1px solid var(--cor-border);
+  border-radius: 5px;
+  background-color: var(--cor-background);
+}
+
+.box-login button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: var(--cor-button);
+  color: var(--cor-text-butto);
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.login-face a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #3b5998;
+  font-size: 1rem;
+}
+
+.login-face img {
+  width: 16px;
+  height: 16px;
+}
+
+.block-link a {
+  text-decoration: none;
+  color: var(--cor-link);
+  font-weight: 500;
+  font-size: 1rem;  
+}
+
+.app-download {
+  margin: 10px 0;
+}
+
+.app-download img {
+  width: 136px;
+  height: 40px;
+  margin: 5px;
+  align-content: center;
+}
+
+@media (min-width: 650px) and (max-width: 999px) {
+  body {
+    background-color: var(--cor-background);
+  }
+
+  .group-login {
+    width: 50%;
+  }
+
+  .box-login {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid var(--cor-border);
+    background-color: var(--cor-box-form);
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .img-phone {
+    display: block;
+    width: 50%;
+    height: 618px;
+  }
+
+  .screen-app {
+    display: block;
+  }
+
+  .group-login {
+    width: 50%;
+  }
+
+  .box-login {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid var(--cor-border);
+    background-color: var(--cor-box-form);
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+}

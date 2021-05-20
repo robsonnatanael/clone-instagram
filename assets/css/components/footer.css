@@ -1,0 +1,26 @@
+footer {
+  text-align: center;
+  color: var(--cor-text-secondary);
+}
+
+footer ul {
+  padding: 1rem;
+}
+
+footer ul li {
+  display: inline;
+  font-size: 1rem;
+  /* margin: 0.6rem; */
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--cor-text-secondary);
+  margin: 0.6rem;
+}
+
+footer .container {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 1rem;
+}
