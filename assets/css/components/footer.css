@@ -10,7 +10,7 @@ footer ul {
 footer ul li {
   display: inline;
   font-size: 1rem;
-  /* margin: 0.6rem; */
+  line-height: 2rem;
 }
 
 footer a {
@@ -20,7 +20,6 @@ footer a {
 }
 
 footer .container {
-  box-sizing: border-box;
   margin-bottom: 20px;
   padding: 1rem;
 }
