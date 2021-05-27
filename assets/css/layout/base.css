@@ -1,16 +1,37 @@
+html,
 body {
-  background-color: #fff;
+  height: 100vh;
+  background-color: var(--cor-background);
+}
+
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-bottom: 100px;
 }
 
 .container {
   width: 100%;
 }
 
-@media (min-width: 650px) and (max-width: 999px) {}
+footer {
+  position: absolute;
+  width: 100%;
+  min-height: 100px;
+  bottom: 0;
+}
+
+@media (min-width: 650px) and (max-width: 999px) {
+}
 
 @media (min-width: 1000px) {
   body {
     background-color: var(--cor-background);
+  }
+
+  section {
+    padding-top: 5%;
   }
 
   .container {
