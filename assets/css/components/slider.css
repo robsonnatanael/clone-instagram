@@ -1,0 +1,23 @@
+#slider {
+  position: relative;
+  width: 240px;
+  height: 427px;
+  overflow: hidden;
+}
+
+#slider li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 0;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+#slider li.slider-active {
+  z-index: 1;
+  opacity: 1;
+}

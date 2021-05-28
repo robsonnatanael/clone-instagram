@@ -3,4 +3,5 @@
 @import url(./partials/colors.css);
 @import url(./layout/base.css);
 @import url(./components/login.css);
+@import url(./components/slider.css);
 @import url(./components/footer.css);
